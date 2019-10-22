@@ -1,0 +1,6 @@
+KID,Beschreibung,abs.,Indikatorwert,t-5,Bezirk,Berlin
+F1,Anteil der EW in Gebieten mit sehr niedrigem Statusindex (%),-,-,-,3.5,10.4
+F2,Anteil der EW in Gebieten mit niedrigem Statusindex (%),-,-,-,4,12.3
+F3,Anteil der EW in Gebieten mit mittlerem Statusindex (%),50827,100,-,91.6,64.9
+F4,Anteil der EW in Gebieten mit hohem/sehr hohem Statusindex (%),-,-,-,0.8,12.4
+F5,Status/Dynamik-Index auf BZR-Ebene nach MSS 2015,-,2+/-,-,x,x

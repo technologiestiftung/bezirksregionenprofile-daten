@@ -1,0 +1,4 @@
+label,ylabel,xlabel,Kinder < 3 Jahre,Kinder > 3 Jahre,Kinder > 6 Jahre
+Kita 1,Anzahl Kinder,Kitas,12,2,1
+Kita 2,,,3,14,0
+Kita 3,,,23,20,5

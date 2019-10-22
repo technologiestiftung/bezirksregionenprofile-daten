@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Kurzporträt der Bezirksregion",
+      "id": 1
+    },
+    {
+      "name": "Demografische Struktur und Entwicklung",
+      "id": 2
+    },
+    {
+      "name": "Soziale Situation",
+      "id": 3
+    },
+    {
+      "name": "Bildungssituation",
+      "id": 4
+    },
+    {
+      "name": "Gesundheitliche Situation",
+      "id": 5
+    },
+    {
+      "name": "Wirtschafts- und Gewerbestruktur",
+      "id": 6
+    },
+    {
+      "name": "Wohnsituation",
+      "id": 7
+    },
+    {
+      "name": "Soziale Infrastruktur",
+      "id": 8
+    },
+    {
+      "name": "Grüne Infrastruktur und öffentlicher Raum",
+      "id": 9
+    },
+    {
+      "name": "Mobilität",
+      "id": 10
+    },
+    {
+      "name": "Umwelt (Lärmbelastung / Luftbelastung / Bioklima)",
+      "id": 11
+    },
+    {
+      "name": "Förderprogramme und Projekte",
+      "id": 12
+    },
+    {
+      "name":
+        "Partizipation: Strukturen der Akteursvernetzung und Bürgerbeteiligung",
+      "id": 13
+    },
+    {
+      "name": "Zusammenfassung: Potenziale und Herausforderungen",
+      "id": 14
+    }
+  ]

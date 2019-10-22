@@ -1,0 +1,194 @@
+{
+	"1":{
+		"name":"Wohnen",
+		"class":"indGr1",
+		"id":"1",
+		"indikatoren":{
+			
+			"A4":{
+				"name":"A4",
+				"text-sm":"Grünanlagen",
+				"text-lg":"Relation der öffentlichen Grünanlagen zu EW gesamt",
+				"unit":"(qm je Einwohner)",
+				"average":16.4
+			},
+			"A5":{
+				"name":"A5",
+				"text-sm":"Spielplatzfläche",
+				"text-lg":"Relation der öffentlichen Spielplatzfläche zu EW gesamt",
+				"unit":"(qm je Einwohner)",
+				"average":0.6
+			},
+			"A6":{
+				"name":"A6",
+				"text-sm":"Kindertagesbetreuung unter 7 Jahren",
+				"text-lg":"Anteil der betreuten Kinder (Wohnort Kind) in öffentlich geförderter Kindertagesbetreuung an Kindern unter 6 Jahren",
+				"unit":"%",
+				"average":63.3
+			},
+			"A7":{
+				"name":"A7",
+				"text-sm":"Jugendfreizeit- einrichtungen",
+				"text-lg":"Relation der Plätze in Jugendfreizeit- einrichtungen zu Kindern und Jugendlichen im Alter von 6 bis unter 25 Jahren",
+				"unit":"(je 100 EW von 6 bis unter 25 Jahren)",
+				"average":7.2
+			},
+			"A8":{
+				"name":"A8",
+				"text-sm":"Straftaten",
+				"text-lg":"Häufigkeit kiezbezogener Straftaten je 100 EW",
+				"unit":"(je 100 Einwohner)",
+				"average":2.8
+			}
+		}
+	},
+	"2":{"name":"Demografie",
+		"class":"indGr2",
+		"id":"2",
+		"indikatoren":{
+			"B1":{
+				"name":"B1",
+				"text-sm":"EW unter 18 Jahren",
+				"text-lg":"Anteil der Einwohner/innen (EW) unter 18 Jahren an EW gesamt",
+				"unit":"%",
+				"average":15.7
+			},
+			"B2":{
+				"name":"B2",
+				"text-sm":"EW im Alter von mind. 65 Jahre",
+				"text-lg":"Anteil der EW von 65 Jahren und älter an EW gesamt",
+				"unit":"%",
+				"average":19.1
+			}
+			
+		}
+	},
+	"3":{
+		"name":"Dynamik",
+		"class":"indGr3",
+		"id":"3",
+		"indikatoren":{
+			"C1":{
+				"name":"C1",
+				"text-sm":"Wohndauer > 5 Jahre",
+				"text-lg":"Anteil der Einwohner/innen mit einer Wohndauer über 5 Jahre an derselben Adresse",
+				"unit":"%",
+				"average":64.6
+			},
+			"C2":{
+				"name":"C2",
+				"text-sm":"Wanderungssaldo je 100 EW",
+				"text-lg":"Wanderungssaldo gesamt je 100 Einwohner/innen",
+				"unit":"(je 100 Einwohner)",
+				"average":1.6
+			},
+			"C3":{
+				"name":"C3",
+				"text-sm":"Wanderungssaldo der EW unter 6 Jahren",
+				"text-lg":"Wanderungssaldo Einwohner/innen unter 6 Jahren je 100 Einwohner/innen unter 6 Jahren",
+				"unit":"(je 100 Einwohner unter 6 Jahren)",
+				"average":1.0
+			}
+		}
+	},
+	"4":{
+		"name":"Arbeitsmarkt",
+		"class":"indGr4",
+		"id":"4",
+		"indikatoren":{
+			"D1":{
+				"name":"D1",
+				"text-sm":"Sozialversicherungs- pflichtige",
+				"text-lg":"Anteil der sozialversicherungspfl. Beschäftigten an Einwohnern/innen im Alter 15 bis 65 Jahren",
+				"unit":"%",
+				"average":51.3
+			},
+			"D2":{
+				"name":"D2",
+				"text-sm":"Arbeitslose",
+				"text-lg":"Anteil Arbeitsloser nach SGB II und SGB III an Einwohnern/innen im Alter 15 bis 65 Jahren",
+				"unit":"%",
+				"average":6.7
+			},
+			"D3":{
+				"name":"D3",
+				"text-sm":"Arbeitslose unter 25 Jahren",
+				"text-lg":"Anteil Arbeitsloser nach SGB II und SGB III unter 25 Jahren an Einwohnern/innen im Alter 15 bis unter 25 Jahre",
+				"unit":"%",
+				"average":3.8
+			},
+			"D4":{
+				"name":"D4",
+				"text-sm":"Empfänger/innen von Transferleistungen",
+				"text-lg":"Anteil Empfänger/innen von Transferleistungen nach SGB II an Einwohnern/innen im Alter unter 65 Jahren",
+				"unit":"%",
+				"average":18.9
+			},
+			"D5":{
+				"name":"D5",
+				"text-sm":"Empfänger/innen von Transferleistungen unter 15 Jahren",
+				"text-lg":"Anteil nicht erwerbsf. Empfänger/innen von Transferleistungen nach SGB II unter 15 Jahren an dieser Altersgruppe",
+				"unit":"%",
+				"average":30.5
+			},
+			"D6":{
+				"name":"D6",
+				"text-sm":"Empfänger/innen von Grundsicherung >=65 Jahre",
+				"text-lg":"Anteil Empfänger/innen von Grundsicherung (außerhalb von Einrichtungen) nach SGB XII im Alter von 65 Jahren und älter an Einwohner/innen dieser Altersgruppe",
+				"unit":"%",
+				"average":5.5
+			}					
+		}
+
+	},
+	"5":{
+		"name":"Kinder & Jugend",
+		"class":"indGr5",
+		"id":"5",
+		"indikatoren":{
+			"E1":{
+				"name":"E1",
+				"text-sm":"Sprachdefizite",
+				"text-lg":"Anteil Kinder mit Sprachdefiziten an Einschüler/innen (Kinder, die im jeweils kommenden Jahr eingeschult werden)",
+				"unit":"%",
+				"average":26.6
+			},
+			"E2":{
+				"name":"E2",
+				"text-sm":"Motorische Defizite",
+				"text-lg":"Anteil Kinder mit motorischen Defiziten (Visuomotorik) an Einschüler/innen",
+				"unit":"%",
+				"average":21.2
+			},
+			"E3":{
+				"name":"E3",
+				"text-sm":"Übergewicht",
+				"text-lg":"Anteil Kinder mit Übergewicht an Einschüler/innen",
+				"unit":"%",
+				"average":9.3
+			},
+			"E5":{
+				"name":"E5",
+				"text-sm":"Schüler/innen nicht deutscher Herkunftssprache",
+				"text-lg":"Anteil Schüler/innen nicht deutscher Herkunftssprache an den Schüler/innen der öff. Grundschulen",
+				"unit":"%",
+				"average":44.4
+			},
+			"E6":{
+				"name":"E6",
+				"text-sm":"Schüler/innen mit Lernmittelkosten- befreiung",
+				"text-lg":"Anteil Schüler/innen mit Lernmittelkosten- befreiung an den Schüler/innen der öff. Grundschulen",
+				"unit":"%",
+				"average":38.0
+			},
+			"E8":{
+				"name":"E8",
+				"text-sm":"Hilfen zur Erziehung",
+				"text-lg":"Anteil Kinder und Jugendlicher mit Hilfen zur Erziehung an Einwohner/innen im Alter unter 21 Jahren",
+				"unit":"%",
+				"average":3.6
+			}
+		}
+	}
+	
+}
