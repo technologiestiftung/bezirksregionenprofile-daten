@@ -1,0 +1,19 @@
+{
+  "name": "bezirksregionenprofile-daten",
+  "version": "1.0.0",
+  "description": "data for bezirksregionenprofile_2_0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologiestiftung/bezirksregionenprofile-daten.git"
+  },
+  "author": "Technologie Stiftung Berlin, Ralph Schulz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technologiestiftung/bezirksregionenprofile-daten/issues"
+  },
+  "homepage": "https://github.com/technologiestiftung/bezirksregionenprofile-daten#readme",
+  "dependencies": {
+    "topojson": "^3.0.2"
+  }
+}
