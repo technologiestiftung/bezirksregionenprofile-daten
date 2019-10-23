@@ -1,9 +1,9 @@
 const fs = require('fs')
 const topojson = require('topojson')
-const toUrl = require('../assets/js/tourl.js')
+const toUrl = require('./lib/tourl.js')
 
 const mapData = JSON.parse(
-  fs.readFileSync('../static/data/map-borders-simplified.json', 'utf8')
+  fs.readFileSync('data/map-borders-simplified.json', 'utf8')
 )
 const bz = topojson.feature(mapData, mapData.objects.bezirksgrenzen)
 
@@ -11,7 +11,7 @@ const bz = topojson.feature(mapData, mapData.objects.bezirksgrenzen)
 // geojson Bezirke
 console.log('\nCreate geojson bezirke')
 fs.writeFileSync(
-  '../static/generated/geojson/geojson_bezirke.json',
+  'data/generated/geojson/geojson_bezirke.json',
   JSON.stringify(bz)
 )
 
@@ -39,7 +39,7 @@ for (let i = 0; i < bz.features.length; i++) {
     }
   }
   fs.writeFileSync(
-    '../static/generated/geojson/geojson_' + toUrl(name) + '_bzr.json',
+    'data/generated/geojson/geojson_' + toUrl(name) + '_bzr.json',
     JSON.stringify(t)
   )
 }
@@ -68,14 +68,14 @@ for (let i = 0; i < bz.features.length; i++) {
     }
   }
   fs.writeFileSync(
-    '../static/generated/geojson/geojson_' + toUrl(name) + '_pr.json',
+    'data/generated/geojson/geojson_' + toUrl(name) + '_pr.json',
     JSON.stringify(t)
   )
 }
 
 // --------------------------------------------------------------------
 // hierarchisches json mit alles Bezirken, Regionen und Planungsräumen
-console.log('\nCreate br-bzr-pr')
+console.log('\nCreate br-bzr-pr.json')
 const bzBzrPr = {}
 for (let i = 0; i < bz.features.length; i++) {
   const name = bz.features[i].properties.Gemeinde_name
@@ -120,11 +120,11 @@ for (let i = 0; i < planungsraeume.features.length; i++) {
   }
 }
 
-fs.writeFileSync('../static/generated/bz-bzr-pr.json', JSON.stringify(bzBzrPr))
+fs.writeFileSync('data/generated/bz-bzr-pr.json', JSON.stringify(bzBzrPr))
 
 // --------------------------------------------------------------------
 // routes erzeugen
-console.log('\nCreate routes')
+console.log('\nCreate routes.json')
 const routes = []
 Object.keys(bzBzrPr).forEach(function(key1) {
   routes.push(key1)
@@ -132,4 +132,4 @@ Object.keys(bzBzrPr).forEach(function(key1) {
     routes.push(key1 + '/' + key2)
   })
 })
-fs.writeFileSync('../static/generated/routes.json', JSON.stringify(routes))
+fs.writeFileSync('data/generated/routes.json', JSON.stringify(routes))
