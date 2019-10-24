@@ -15,5 +15,10 @@
   "homepage": "https://github.com/technologiestiftung/bezirksregionenprofile-daten#readme",
   "dependencies": {
     "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-responsive": "^3.0.1"
   }
 }
