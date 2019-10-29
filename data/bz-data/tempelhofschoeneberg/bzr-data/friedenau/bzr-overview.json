@@ -1,1 +1,12 @@
-{"name": "Friedenau", "url": "friedenau", "introText": "Die Bezirksregion (BZR) Friedenau umfasst den Ortsteil Friedenau und den südlichen Teil des Ortsteils Schöneberg. Sie liegt unterhalb der Bahntrasse der Ringbahn und recht bis zur Bezirksgrenze zu Steglitz-Zehlendorf an der Gutsmuthstraße. Westlich beginnt die BZR an der Bezirksgrenze zu Charlottenburg-Wilmersdorf an der Laubacher Straße und reicht östlich bis an die Bahntrasse der Dresdner Bahn am Naturpark Schöneberger Südgelände. Die Siedlungsstruktur der BZR ist homogen durch verdichtete Blockrandbebauung geprägt. Die BZR umfasst eine Fläche von rund 454 Hektar.", "facts": {"flaeche": "4.54", "einw": "45.520", "dichte": "1.003"}}
+{
+    "name": "Friedenau",
+    "url": "friedenau",
+    "introText": "Die Bezirksregion (BZR) Friedenau umfasst den Ortsteil Friedenau und den südlichen Teil des Ortsteils Schöneberg. Sie liegt unterhalb der Bahntrasse der Ringbahn und recht bis zur Bezirksgrenze zu Steglitz-Zehlendorf an der Gutsmuthstraße. Westlich beginnt die BZR an der Bezirksgrenze zu Charlottenburg-Wilmersdorf an der Laubacher Straße und reicht östlich bis an die Bahntrasse der Dresdner Bahn am Naturpark Schöneberger Südgelände. Die Siedlungsstruktur der BZR ist homogen durch verdichtete Blockrandbebauung geprägt. Die BZR umfasst eine Fläche von rund 454 Hektar.",
+    "facts": {
+        "flaeche": "4.54",
+        "einw": "45.520",
+        "dichte": "1.003"
+    },
+    "imprint": "Herausgegeben durch Bezirksamt Tempelhof-Schöneberg von Berlin, Organisationseinheit Sozialraumorientierte Planungskoordination (OE SPK).\n    Koordination: Ulrich Binner (Datenkoordination, SPK DK). Bearbeitungsstand: beschlossen durch AG SRO am 16.11.2017, beschlossen durch Bezirksamt Tempelhof-Schöneberg am 06.02.2018.\n    Datenstand: KID & DGZ 12/2015, ergänzende Daten wie angegeben.",
+    "datatUrl": "https://test.com"
+}
