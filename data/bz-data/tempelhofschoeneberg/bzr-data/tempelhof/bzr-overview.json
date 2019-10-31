@@ -1,1 +1,12 @@
-{"name": "Tempelhof", "url": "tempelhof", "introText": "Die Bezirksregion Tempelhof ist die größte Bezirksregion in Tempelhof-Schöneberg. Sie umfasst sowohl den gleichnamigen Ortsteil als mit dem Planungsraum Lindenhofsiedlung auch einen Teil des Alt-Bezirks und Ortsteils Schöneberg. Durch die Bezirksregion verläuft von Westen nach Osten die Stadtautobahn, der Tempelhofer Damm (B96) durchquert die Bezirksregion von Norden nach Süden. Durch die U-Bahnlinie 6 und die Ringbahn ist die Bezirksregion an das Schienennetz des ÖPNV angebunden, eine Vielzahl von Busanbindungen ist ebenfalls gegeben.", "facts": {"flaeche": "13,8", "einw": "63.310", "dichte": "4.588"}}
+{
+    "name": "Tempelhof",
+    "url": "tempelhof",
+    "introText": "Die Bezirksregion Tempelhof ist die größte Bezirksregion in Tempelhof-Schöneberg. Sie umfasst sowohl den gleichnamigen Ortsteil als mit dem Planungsraum Lindenhofsiedlung auch einen Teil des Alt-Bezirks und Ortsteils Schöneberg. Durch die Bezirksregion verläuft von Westen nach Osten die Stadtautobahn, der Tempelhofer Damm (B96) durchquert die Bezirksregion von Norden nach Süden. Durch die U-Bahnlinie 6 und die Ringbahn ist die Bezirksregion an das Schienennetz des ÖPNV angebunden, eine Vielzahl von Busanbindungen ist ebenfalls gegeben.",
+    "facts": {
+        "flaeche": "13,8",
+        "einw": "63.310",
+        "dichte": "4.588"
+    },
+    "imprint": "Herausgegeben durch Bezirksamt Tempelhof-Schöneberg von Berlin, Organisationseinheit Sozialraumorientierte Planungskoordination (OE SPK).\n    Koordination: Ulrich Binner (Datenkoordination, SPK DK). Bearbeitungsstand: beschlossen durch AG SRO am 16.11.2017, beschlossen durch Bezirksamt Tempelhof-Schöneberg am 06.02.2018.\n    Datenstand: KID & DGZ 12/2015, ergänzende Daten wie angegeben.",
+    "datatUrl": ""
+}

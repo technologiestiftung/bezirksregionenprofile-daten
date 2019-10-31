@@ -1,1 +1,12 @@
-{"name": "Lichtenrade", "url": "lichtenrade", "introText": "Die Bezirksregion (BZR) Lichtenrade ist deckungsgleich mit dem Ortsteil Lichtenrade. Sie zieht sich rechteckig von der Spitze der Föttinger Zeile und der Grenze zum Bezirk Neukölln nach Süden bis an die Grenze zum Land Brandenburg (Landkreis Teltow-Fläming). Westlich beginnt die BZR an der Grenze zur BZR Marienfelde und reicht östlich bis zur Grenze zum Land Brandenburg (Landkreis Dahme Spreewald). Die BZR umfasst eine Fläche von rund 1.004 Hektar und ist in Bezug auf die Fläche die zweitgrößte BZR in Tempelhof-Schöneberg.", "facts": {"flaeche": "10,01", "einw": "50.177", "dichte": "5010"}}
+{
+    "name": "Lichtenrade",
+    "url": "lichtenrade",
+    "introText": "Die Bezirksregion (BZR) Lichtenrade ist deckungsgleich mit dem Ortsteil Lichtenrade. Sie zieht sich rechteckig von der Spitze der Föttinger Zeile und der Grenze zum Bezirk Neukölln nach Süden bis an die Grenze zum Land Brandenburg (Landkreis Teltow-Fläming). Westlich beginnt die BZR an der Grenze zur BZR Marienfelde und reicht östlich bis zur Grenze zum Land Brandenburg (Landkreis Dahme Spreewald). Die BZR umfasst eine Fläche von rund 1.004 Hektar und ist in Bezug auf die Fläche die zweitgrößte BZR in Tempelhof-Schöneberg.",
+    "facts": {
+        "flaeche": "10,01",
+        "einw": "50.177",
+        "dichte": "5.010"
+    },
+    "imprint": "Herausgegeben durch Bezirksamt Tempelhof-Schöneberg von Berlin, Organisationseinheit Sozialraumorientierte Planungskoordination (OE SPK).\n    Koordination: Ulrich Binner (Datenkoordination, SPK DK). Bearbeitungsstand: beschlossen durch AG SRO am 16.11.2017, beschlossen durch Bezirksamt Tempelhof-Schöneberg am 06.02.2018.\n    Datenstand: KID & DGZ 12/2015, ergänzende Daten wie angegeben.",
+    "datatUrl": ""
+}

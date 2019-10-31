@@ -1,1 +1,12 @@
-{"name": "Schöneberg-\nSüd", "url": "schoenebergsued", "introText": "Die Bezirksregion (BZR) Schöneberg Süd umfasst den mittleren Teil des Ortsteils Schöneberg. Sie beginnt unterhalb der Badenschen Straße, Eisenacher Straße und Monumentenstraße und reicht bis zur Trasse der S-Bahn und dem Sachsendamm. Westlich beginnt die BZR an der Bezirksgrenze zu Charlottenburg-Wilmersdorf und reicht östlich bis zur Trasse der Nord-Süd-Bahn. Die Siedlungsstruktur der BZR ist homogen durch verdichtete Blockrandbebauung geprägt.", "facts": {"flaeche": "3,37", "einw": "49.967", "dichte": "14830"}}
+{
+    "name": "Schöneberg-\nSüd",
+    "url": "schoenebergsued",
+    "introText": "Die Bezirksregion (BZR) Schöneberg Süd umfasst den mittleren Teil des Ortsteils Schöneberg. Sie beginnt unterhalb der Badenschen Straße, Eisenacher Straße und Monumentenstraße und reicht bis zur Trasse der S-Bahn und dem Sachsendamm. Westlich beginnt die BZR an der Bezirksgrenze zu Charlottenburg-Wilmersdorf und reicht östlich bis zur Trasse der Nord-Süd-Bahn. Die Siedlungsstruktur der BZR ist homogen durch verdichtete Blockrandbebauung geprägt.",
+    "facts": {
+        "flaeche": "3,37",
+        "einw": "49.967",
+        "dichte": "14.830"
+    },
+    "imprint": "Herausgegeben durch Bezirksamt Tempelhof-Schöneberg von Berlin, Organisationseinheit Sozialraumorientierte Planungskoordination (OE SPK).\n    Koordination: Ulrich Binner (Datenkoordination, SPK DK). Bearbeitungsstand: beschlossen durch AG SRO am 16.11.2017, beschlossen durch Bezirksamt Tempelhof-Schöneberg am 06.02.2018.\n    Datenstand: KID & DGZ 12/2015, ergänzende Daten wie angegeben.",
+    "datatUrl": ""
+}
