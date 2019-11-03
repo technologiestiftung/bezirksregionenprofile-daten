@@ -1,1 +1,12 @@
-{"name": "Mariendorf", "url": "mariendorf", "introText": "Die Bezirksregion (BZR) Mariendorf ist zuschnittsgleich mit dem Ortsteil Mariendorf. Sie beginnt unterhalb des Teltowkanals bzw. östlich des Mariendorfer Damms an der Ullsteinstraße und reicht bis zur Untertürkheimer Straße, Daimlerstraße. Westlich beginnt die BZR an der Bezirksgrenze zu Steglitz-Zehlendorf entlang der Dresdner Bahn und reicht östlich bis zur Bezirksgrenze Neukölln. Die Siedlungsstruktur der BZR ist hauptsächlich durch den Siedlungsbau der 50er Jahre geprägt, die Nebenprägung ist die verdichtete Blockrandbebauung. Die BZR umfasst eine Fläche von 934 Hektar.", "facts": {"flaeche": "9,34", "einw": "51.317", "dichte": "5.490"}}
+{
+    "name": "Mariendorf",
+    "url": "mariendorf",
+    "introText": "Die Bezirksregion (BZR) Mariendorf ist zuschnittsgleich mit dem Ortsteil Mariendorf. Sie beginnt unterhalb des Teltowkanals bzw. östlich des Mariendorfer Damms an der Ullsteinstraße und reicht bis zur Untertürkheimer Straße, Daimlerstraße. Westlich beginnt die BZR an der Bezirksgrenze zu Steglitz-Zehlendorf entlang der Dresdner Bahn und reicht östlich bis zur Bezirksgrenze Neukölln. Die Siedlungsstruktur der BZR ist hauptsächlich durch den Siedlungsbau der 50er Jahre geprägt, die Nebenprägung ist die verdichtete Blockrandbebauung. Die BZR umfasst eine Fläche von 934 Hektar.",
+    "facts": {
+        "flaeche": "9,34",
+        "einw": "51.317",
+        "dichte": "5.490"
+    },
+    "imprint": "Herausgegeben durch Bezirksamt Tempelhof-Schöneberg von Berlin, Organisationseinheit Sozialraumorientierte Planungskoordination (OE SPK).\n    Koordination: Ulrich Binner (Datenkoordination, SPK DK). Bearbeitungsstand: beschlossen durch AG SRO am 16.11.2017, beschlossen durch Bezirksamt Tempelhof-Schöneberg am 06.02.2018.\n    Datenstand: KID & DGZ 12/2015, ergänzende Daten wie angegeben.",
+    "datatUrl": ""
+}

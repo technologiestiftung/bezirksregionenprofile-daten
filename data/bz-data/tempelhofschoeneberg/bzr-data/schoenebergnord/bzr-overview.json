@@ -1,1 +1,12 @@
-{"name": "Schöneberg-\nNord", "url": "schoenebergnord", "introText": "Die Bezirksregion (BZR) Schöneberg Nord umfasst den nördlichen Teil des Ortsteils Schö-neberg. Sie beginnt an der Bezirksgrenze zu Mitte (Tiergarten) und wird durch die Hohen-staufenstraße - Eisenacher Straße - Monumentenstraße südlich begrenzt. Westlich und öst-lich bilden die Bezirksgrenzen auch die Grenzen der BZR. Die Siedlungsstruktur der BZR ist homogen durch verdichtete Blockrandbebauung geprägt. Die BZR umfasst eine Fläche von 283 Hektar und ist die kleinste BZR in Tempelhof-Schöneberg. Die BZR Schöneberg Nord (LOR-Nummer: 070101) gliedert sich in die vier Planungsräume (PLR): Wittenbergplatz/Viktoria-Luise-Platz (07010101), Nollendorfplatz (07010102), Barbarossaplatz (07010103) und Dennewitzplatz (07010104).", "facts": {"flaeche":"2,83" , "einw": "49.235", "dichte": "1740"}}
+{
+    "name": "Schöneberg-\nNord",
+    "url": "schoenebergnord",
+    "introText": "Die Bezirksregion (BZR) Schöneberg Nord umfasst den nördlichen Teil des Ortsteils Schö-neberg. Sie beginnt an der Bezirksgrenze zu Mitte (Tiergarten) und wird durch die Hohen-staufenstraße - Eisenacher Straße - Monumentenstraße südlich begrenzt. Westlich und öst-lich bilden die Bezirksgrenzen auch die Grenzen der BZR. Die Siedlungsstruktur der BZR ist homogen durch verdichtete Blockrandbebauung geprägt. Die BZR umfasst eine Fläche von 283 Hektar und ist die kleinste BZR in Tempelhof-Schöneberg. Die BZR Schöneberg Nord (LOR-Nummer: 070101) gliedert sich in die vier Planungsräume (PLR): Wittenbergplatz/Viktoria-Luise-Platz (07010101), Nollendorfplatz (07010102), Barbarossaplatz (07010103) und Dennewitzplatz (07010104).",
+    "facts": {
+        "flaeche": "2,83",
+        "einw": "49.235",
+        "dichte": "1.740"
+    },
+    "imprint": "Herausgegeben durch Bezirksamt Tempelhof-Schöneberg von Berlin, Organisationseinheit Sozialraumorientierte Planungskoordination (OE SPK).\n    Koordination: Ulrich Binner (Datenkoordination, SPK DK). Bearbeitungsstand: beschlossen durch AG SRO am 16.11.2017, beschlossen durch Bezirksamt Tempelhof-Schöneberg am 06.02.2018.\n    Datenstand: KID & DGZ 12/2015, ergänzende Daten wie angegeben.",
+    "datatUrl": ""
+}
