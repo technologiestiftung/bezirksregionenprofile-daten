@@ -10,7 +10,7 @@
 				"text-sm":"Grünanlagen",
 				"text-lg":"Relation der öffentlichen Grünanlagen zu EW gesamt",
 				"unit":"(qm je Einwohner)",
-				"average":16.4
+				"average":17.0
 			},
 			"A5":{
 				"name":"A5",
@@ -24,21 +24,21 @@
 				"text-sm":"Kindertagesbetreuung unter 7 Jahren",
 				"text-lg":"Anteil der betreuten Kinder (Wohnort Kind) in öffentlich geförderter Kindertagesbetreuung an Kindern unter 6 Jahren",
 				"unit":"%",
-				"average":63.3
+				"average":67.2
 			},
 			"A7":{
 				"name":"A7",
 				"text-sm":"Jugendfreizeit- einrichtungen",
 				"text-lg":"Relation der Plätze in Jugendfreizeit- einrichtungen zu Kindern und Jugendlichen im Alter von 6 bis unter 25 Jahren",
 				"unit":"(je 100 EW von 6 bis unter 25 Jahren)",
-				"average":7.2
+				"average":6.7
 			},
 			"A8":{
 				"name":"A8",
 				"text-sm":"Straftaten",
-				"text-lg":"Häufigkeit kiezbezogener Straftaten je 100 EW",
-				"unit":"(je 100 Einwohner)",
-				"average":2.8
+				"text-lg":"Häufigkeit kiezbezogener Straftaten je 100.000 EW",
+				"unit":"(je 100.000 Einwohner)",
+				"average":2869
 			}
 		}
 	},
@@ -51,7 +51,7 @@
 				"text-sm":"EW unter 18 Jahren",
 				"text-lg":"Anteil der Einwohner/innen (EW) unter 18 Jahren an EW gesamt",
 				"unit":"%",
-				"average":15.7
+				"average":15.4
 			},
 			"B2":{
 				"name":"B2",
@@ -73,21 +73,21 @@
 				"text-sm":"Wohndauer > 5 Jahre",
 				"text-lg":"Anteil der Einwohner/innen mit einer Wohndauer über 5 Jahre an derselben Adresse",
 				"unit":"%",
-				"average":64.6
+				"average":61.9
 			},
 			"C2":{
 				"name":"C2",
 				"text-sm":"Wanderungssaldo je 100 EW",
 				"text-lg":"Wanderungssaldo gesamt je 100 Einwohner/innen",
 				"unit":"(je 100 Einwohner)",
-				"average":1.6
+				"average":1.4
 			},
 			"C3":{
 				"name":"C3",
 				"text-sm":"Wanderungssaldo der EW unter 6 Jahren",
 				"text-lg":"Wanderungssaldo Einwohner/innen unter 6 Jahren je 100 Einwohner/innen unter 6 Jahren",
 				"unit":"(je 100 Einwohner unter 6 Jahren)",
-				"average":1.0
+				"average":10.9
 			}
 		}
 	},
@@ -101,35 +101,35 @@
 				"text-sm":"Sozialversicherungs- pflichtige",
 				"text-lg":"Anteil der sozialversicherungspfl. Beschäftigten an Einwohnern/innen im Alter 15 bis 65 Jahren",
 				"unit":"%",
-				"average":51.3
+				"average":49.8
 			},
 			"D2":{
 				"name":"D2",
 				"text-sm":"Arbeitslose",
 				"text-lg":"Anteil Arbeitsloser nach SGB II und SGB III an Einwohnern/innen im Alter 15 bis 65 Jahren",
 				"unit":"%",
-				"average":6.7
+				"average":7.5
 			},
 			"D3":{
 				"name":"D3",
 				"text-sm":"Arbeitslose unter 25 Jahren",
 				"text-lg":"Anteil Arbeitsloser nach SGB II und SGB III unter 25 Jahren an Einwohnern/innen im Alter 15 bis unter 25 Jahre",
 				"unit":"%",
-				"average":3.8
+				"average":4.2
 			},
 			"D4":{
 				"name":"D4",
 				"text-sm":"Empfänger/innen von Transferleistungen",
 				"text-lg":"Anteil Empfänger/innen von Transferleistungen nach SGB II an Einwohnern/innen im Alter unter 65 Jahren",
 				"unit":"%",
-				"average":18.9
+				"average":19.6
 			},
 			"D5":{
 				"name":"D5",
 				"text-sm":"Empfänger/innen von Transferleistungen unter 15 Jahren",
 				"text-lg":"Anteil nicht erwerbsf. Empfänger/innen von Transferleistungen nach SGB II unter 15 Jahren an dieser Altersgruppe",
 				"unit":"%",
-				"average":30.5
+				"average":31.4
 			},
 			"D6":{
 				"name":"D6",
@@ -151,35 +151,35 @@
 				"text-sm":"Sprachdefizite",
 				"text-lg":"Anteil Kinder mit Sprachdefiziten an Einschüler/innen (Kinder, die im jeweils kommenden Jahr eingeschult werden)",
 				"unit":"%",
-				"average":26.6
+				"average":21.9
 			},
 			"E2":{
 				"name":"E2",
 				"text-sm":"Motorische Defizite",
 				"text-lg":"Anteil Kinder mit motorischen Defiziten (Visuomotorik) an Einschüler/innen",
 				"unit":"%",
-				"average":21.2
+				"average":15.6
 			},
 			"E3":{
 				"name":"E3",
 				"text-sm":"Übergewicht",
 				"text-lg":"Anteil Kinder mit Übergewicht an Einschüler/innen",
 				"unit":"%",
-				"average":9.3
+				"average":9.9
 			},
 			"E5":{
 				"name":"E5",
 				"text-sm":"Schüler/innen nicht deutscher Herkunftssprache",
 				"text-lg":"Anteil Schüler/innen nicht deutscher Herkunftssprache an den Schüler/innen der öff. Grundschulen",
 				"unit":"%",
-				"average":44.4
+				"average":42.2
 			},
 			"E6":{
 				"name":"E6",
 				"text-sm":"Schüler/innen mit Lernmittelkosten- befreiung",
 				"text-lg":"Anteil Schüler/innen mit Lernmittelkosten- befreiung an den Schüler/innen der öff. Grundschulen",
 				"unit":"%",
-				"average":38.0
+				"average":38.7
 			},
 			"E8":{
 				"name":"E8",
