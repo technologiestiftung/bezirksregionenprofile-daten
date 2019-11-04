@@ -1,7 +1,7 @@
 # bezirksregionenprofile-daten
 
 Data for [bezirksregionenprofile_2_0
-](https://github.com/technologiestiftung/bezirksregionenprofile_2_0) repo. Serves as a prototype API.
+](https://github.com/technologiestiftung/bezirksregionenprofile_2_0) repo. Serves as a prototype API. All files in ```data```folder need to be publicly accessible.
 
 ## Setup
 ```npm install```
