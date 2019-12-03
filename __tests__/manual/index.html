@@ -6,7 +6,16 @@
   <title>Document</title>
 </head>
 <body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script>
+  axios.get('https://bezirksregionenprofile-data-dev.s3.eu-central-1.amazonaws.com/data/generated/routes.json')
+  .then(function (response) {
+    // handle success
+    console.log(response);
+  })
+  </script>
+<script>
+
   async function main(){
     try {
       const res = await fetch("https://bezirksregionenprofile-data-dev.s3.eu-central-1.amazonaws.com/data/bz-data/lichtenberg/bz-overview.json", {method:'GET'});
@@ -20,7 +29,7 @@
       throw error;
     }
   }
-  main();
+  main()
   </script>
 </body>
 </html>
