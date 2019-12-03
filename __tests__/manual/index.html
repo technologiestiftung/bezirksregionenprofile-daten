@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+  axios.get('https://bezirksregionenprofile-data-dev.s3.eu-central-1.amazonaws.com/data/generated/routes.json')
+  .then(function (response) {
+    // handle success
+    console.log(response);
+  })
+  </script>
+<script>
+
+  async function main(){
+    try {
+      const res = await fetch("https://bezirksregionenprofile-data-dev.s3.eu-central-1.amazonaws.com/data/bz-data/lichtenberg/bz-overview.json", {method:'GET'});
+      if(res.ok === false){
+        console.error(res);
+      }else{
+        console.log(await res.json());
+      }
+
+    } catch (error) {
+      throw error;
+    }
+  }
+  main()
+  </script>
+</body>
+</html>
