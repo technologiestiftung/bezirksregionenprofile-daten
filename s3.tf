@@ -21,10 +21,13 @@ resource "aws_s3_bucket" "default" {
   }
 }
 
+# to detect changes within the files we need to have the etag md5 hash
+# in the resource
 resource "aws_s3_bucket_object" "default" {
   for_each = fileset(path.module, "data/**/*")
   bucket   = aws_s3_bucket.default.bucket
   key      = each.value
   source   = "${path.module}/${each.value}"
   acl      = "public-read"
+  etag     = "${filemd5("${path.module}/${each.value}")}"
 }
