@@ -1,21 +1,31 @@
-# bezirksregionenprofile-daten
+# Bezirksregionenprofile Daten
 
 Data for [bezirksregionenprofile_2_0
 ](https://github.com/technologiestiftung/bezirksregionenprofile_2_0) repo. Serves as a prototype API. All files in ```data```folder need to be publicly accessible.
 
 ## Setup
-```npm install```
+
+```bash
+npm install
+```
 
 ## Data preprocessing
+
 ### Geodata
+
 Build hierarchical minimal data structure from topojson source file. This will generate all files in ```data/generated```. This only needs to be run when there are changes to geographic data e.g. a new district that needs to be added.
 
-```node run preprocessData.js```
+```bash
+node preprocessData.js
+```
 
 ### Images
+
 Gulp task to compress images and create thumbnail files. This generates all files within ```images/optimized``` folder.
 
-```gulp```
+```bash
+gulp
+```
 
 
 ## Data API
@@ -31,7 +41,6 @@ To setup the data API we use Terraform and a AWS S3 bucket with public-read acce
 7. Run `terraform plan`
 8. Run `terraform apply`
 
-
 ```terraform
 region = "eu-central-1"
 profile = "YOUR-PROFILE"
@@ -41,10 +50,10 @@ allowed_origins =  ["*"]
 
 You now should have access over https to your buckets files.
 
-
 ## Data input
 
 ### Excel sheet
+
 For data input an Excel sheet is used, with the following tabs:
     - **BZR Intro:** Information about the 'Bezirksregion' that appears in the top part of the detail page. Has to transfered manually to the bzr-overview.json
     - **datenblatt:** Hold all the data (titles, texts, table and graph references)
@@ -53,15 +62,19 @@ For data input an Excel sheet is used, with the following tabs:
 As an example, see *data-input/example-data-input.xlsx*.
 
 ### Turn Excel to CSV Files
+
 To turn the Excel sheets into CSV files:
+
 - adapt bzr_input_file_list so that it contains all Excel file names that shall be turned to csv files 
 - run the python script 'data-input/create-csv-files.py'.
 - Paste csv files into respective data folders or adjust the path in the python script.
 
 ### Provide data as comprehensible Excel Sheet for Open Data
+
 The data should be provided as open data via the download section of the 'Bezirk'. The download link should then be provided via the button 'Daten Download' on the detail page of each 'Bezirksregion'.
 
 For provision of Open Data Excel sheets:
+
 - Duplicate input Excel sheet with data
 - Create tab "Verzeichnis" where all data input tables are listed (tables, barchart, linechart, map-pr, map-poi)
 - Create tab "LOR-ID Übersicht" that lists all LORs with their respective IDs
@@ -74,7 +87,8 @@ As an example, see *data-input/friedenau-open-data-example.xlsx*.
 As the system with the CSV files is not optimal, this JSON scheme is recommended for future optimization:
 
 #### Example dataset with all content elements
-```
+
+```json
 [
     {
         "ref": "1",
