@@ -58,7 +58,7 @@ jobs:
         id: fmt
         run: terraform fmt -check
         continue-on-error: true
-      - run: terraform init
+      - run: terraform init -reconfigure
       - id: validate
         run: terraform validate -no-color
       - uses: actions/github-script@0.9.0
