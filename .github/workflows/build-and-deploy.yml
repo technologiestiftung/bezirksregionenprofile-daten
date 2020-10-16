@@ -44,16 +44,19 @@ jobs:
     if: github.ref == 'refs/heads/master' && !contains(github.event.head_commit.message, 'skip ci')
     steps:
       # https://github.com/aws-actions/configure-aws-credentials
+      # do we need this?
+      # TODO: Do we need to configure the credentials?
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
-        # https://github.com/hashicorp/setup-terraform
-      # - uses: hashicorp/setup-terraform@v1
+
       - name: Checkout Source
         uses: actions/checkout@v2
+        # https://github.com/jakejarvis/s3-sync-action
+        # uses https://docs.aws.amazon.com/cli/latest/reference/s3/index.html
       - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --follow-symlinks --delete
