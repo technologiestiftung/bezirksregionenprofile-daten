@@ -5,7 +5,8 @@
   "scripts": {
     "generate:images": "gulp",
     "generate:data": "node preprocessData.js",
-    "test": "npm run generate:images && npm run generate:data"
+    "build": "npm run generate:images && npm run generate:data",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
