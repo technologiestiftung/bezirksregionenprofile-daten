@@ -1,1 +1,3 @@
-{"name": "Marzahn-Nord", "url": "marzahnnord", "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", "facts": {"flaeche": 1, "einw": "24131", "dichte": 1}}
+{"name": "Marzahn-Nord", "url": "marzahnnord", 
+    "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", 
+    "facts": {"flaeche": 2.5, "einw": "24131", "dichte": 9652}}

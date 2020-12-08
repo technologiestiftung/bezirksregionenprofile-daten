@@ -1,1 +1,3 @@
-{"name": "Marzahn-Mitte", "url": "marzahnmitte", "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", "facts": {"flaeche": 1, "einw": "48800", "dichte": 1}}
+{"name": "Marzahn-Mitte", "url": "marzahnmitte", 
+    "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", 
+    "facts": {"flaeche": 7.97, "einw": "48800", "dichte": 6122}}

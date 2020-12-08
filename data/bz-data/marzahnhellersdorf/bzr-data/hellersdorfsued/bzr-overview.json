@@ -1,1 +1,3 @@
-{"name": "Hellersdorf-Süd", "url": "hellersdorfsued", "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", "facts": {"flaeche": 1, "einw": "24806", "dichte": 1}}
+{"name": "Hellersdorf-Süd", "url": "hellersdorfsued", 
+    "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", 
+    "facts": {"flaeche": 1, "einw": "24806", "dichte": 1}}

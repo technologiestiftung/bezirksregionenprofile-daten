@@ -1,1 +1,3 @@
-{"name": "Marzahn-Süd", "url": "marzahnsued", "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", "facts": {"flaeche": 1, "einw": "38194", "dichte": 1}}
+{"name": "Marzahn-Süd", "url": "marzahnsued", 
+    "introText": "Für diese Bezirksregion liegen leider noch keine Daten vor.", 
+    "facts": {"flaeche": 9.07, "einw": "38194", "dichte": 4211}}
