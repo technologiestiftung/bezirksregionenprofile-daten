@@ -3,7 +3,7 @@ from xlrd import open_workbook
 import csv
 import os
 
-bzr_input_file_list = ['marzahnsued']
+bzr_input_file_list = ['data-input/marzahnsued']
 
 for bzr in bzr_input_file_list:
     if not os.path.exists(bzr):
