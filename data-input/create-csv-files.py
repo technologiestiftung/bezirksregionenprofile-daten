@@ -3,7 +3,7 @@ from xlrd import open_workbook
 import csv
 import os
 
-bzr_input_file_list = ['friedenau','tempelhof', 'marienfelde', 'mariendorf', 'lichtenrade', 'schoeneberg_nord', 'schoeneberg_sued']
+bzr_input_file_list = ['marzahnsued']
 
 for bzr in bzr_input_file_list:
     if not os.path.exists(bzr):
