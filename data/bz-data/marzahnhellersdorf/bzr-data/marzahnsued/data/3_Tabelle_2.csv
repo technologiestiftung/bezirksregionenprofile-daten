@@ -1,8 +1,8 @@
-LOR-Nummer,LOR-Name,Anzahl,Quote in % in 2017,Veränderung Anzahl in % zu 2016,Quote in % in 2016
-10010308,Marzahner Chaussee,1007,66.7,"+3,5",61
-10010309,Springpfuhl,5331,63,"+0,5",61.7
-10010310,Alt-Marzahn,6645,60.3,"+0,5",60.7
-10010311,Landsberger Tor,1346,70.2,"+12,3",68.8
-100103,Marzahn-Süd,14329,62.6,"+1,7",61.7
-10,Marzahn-Hellersdorf,107487,61.2,"+1,9",60.4
-,Berlin,keine Angabe,52.8,keine Angabe,keine Angabe
+LOR-Nummer,LOR-Name,Anzahl,Veränderung Anzahl in % zu 2016,Veränderung Anzahl in % zu 2012,Quote in % 2017,Quote in % 2016,Quote in % 2012
+10010308,Marzahner Chaussee,1007,"3,5",54.5,66.7,61,56.9
+10010309,Springpfuhl,5331,"0,5",6.3,63,61.7,54.9
+10010310,Alt-Marzahn,6645,"0,5",4.1,60.3,60.7,55.4
+10010311,Landsberger Tor,1346,"12,3",22.4,70.2,68.8,61.4
+100103,Marzahn-Süd,14329,"1,7",9,62.6,61.7,55.7
+10,Marzahn-Hellersdorf,107487,"1,9",9.4,61.2,60.4,58.4
+,Berlin,k.A.,k.A.,k.A.,52.8,k.A.,k.A.
