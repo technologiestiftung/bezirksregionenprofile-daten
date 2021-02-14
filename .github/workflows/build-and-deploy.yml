@@ -26,7 +26,7 @@ jobs:
       - run: npm test
       - run: npm run build
       - name: Add & Commit
-        uses: EndBug/add-and-commit@v4.4.0 # You can change this to use a specific version
+        uses: EndBug/add-and-commit@v4.4.0
         with:
           add: data
           author_name: tsboter
