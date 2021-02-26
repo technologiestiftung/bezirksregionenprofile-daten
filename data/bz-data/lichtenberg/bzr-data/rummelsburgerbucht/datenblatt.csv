@@ -12,7 +12,7 @@ Begrenzt wird die Bezirksregion im Norden die Bahntrasse nach Frankfurt/Oder, im
 2,titel,,Einwohnerentwicklung,,
 2,table,bzr12_tab1,"Einwohnerentwicklung 2020 im Vergleich zu 2019 und 2015 in der Rummelsburger Bucht, im Bezirk Lichtenberg und Berlin","Daten: Amt für Statistik Berlin-Brandenburg, Stand 31.12.2020. ",
 2,text,,"2020 hatte die Bezirksregion mit 4.244 Einwohner:innen einen Anteil von 1,4% an der Gesamtbevölkerung des Bezirks Lichtenberg.",,
-2,barchart,bzr12_tab2,"Altersstruktur der Einwohner:innen in der Rummelsburger Bucht, im Bezirk Lichtenberg und Berlin","Daten: Amt für Statistik Berlin-Brandenburg, Stand 31.12.2020. ",
+2,barchart,bzr12-barchart_1,"Altersstruktur der Einwohner:innen in der Rummelsburger Bucht, im Bezirk Lichtenberg und Berlin","Daten: Amt für Statistik Berlin-Brandenburg, Stand 31.12.2020. ",
 2,text,,Die Bezirksregion Rummelsburger Bucht hat in den zurückliegenden fünf Jahren in allen Altersgruppen Zuwächse verzeichnet.,,
 2,,,,,
 2,,,,,
