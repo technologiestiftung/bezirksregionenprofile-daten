@@ -22,12 +22,12 @@
     "topojson": "3.0.2"
   },
   "devDependencies": {
-    "eslint": "7.5.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-prettier": "3.1.4",
+    "eslint": "7.25.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-prettier": "3.4.0",
     "gulp": "4.0.2",
-    "gulp-load-plugins": "2.0.3",
+    "gulp-load-plugins": "2.0.6",
     "gulp-responsive": "3.0.1",
-    "prettier": "2.0.5"
+    "prettier": "2.2.1"
   }
 }
